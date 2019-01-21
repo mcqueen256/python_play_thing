@@ -9,6 +9,7 @@
 6. `npm run build`
 7. `cd ..`
 8. `deactivate` (when leaving the development environment)
+9. `mkdir uploaded_files`
 
 # Run the Server
 
