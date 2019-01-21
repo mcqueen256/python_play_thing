@@ -63,3 +63,6 @@ def css(file):
 def root(file):
     with open('./elpis-gui/build/'+file, 'r') as fin:
         return fin.read()
+
+if __name__ == "__main__":
+    app.run()
