@@ -1,9 +1,17 @@
 
 # Setup Python Environment
-`python3 -m venv venv`
-`source venv/bin/activate`
-`pip install -r requirements.txt`
+
+1. `python3 -m venv venv`
+2. `source venv/bin/activate`
+3. `pip install -r requirements.txt`
+4. `cd elpis-gui`
+5. `npm i`
+6. `npm run build`
+7. `cd ..`
+8. `deactivate` (when leaving the development environment)
 
 # Run the Server
-`source venv/bin/activate`
-`FLASK_APP=ppp.py flask run`
+
+1. `source venv/bin/activate`
+2. `export FLASK_ENV='development'`
+3. `FLASK_APP=ppp.py flask run`
